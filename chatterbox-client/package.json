@@ -1,3 +1,5 @@
+
+
 {
   "name": "chatterbox-client",
   "version": "0.1.0",
@@ -12,8 +14,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "server": "json-server --watch db.json --port 4000",
     "start": "react-scripts start",
+    "server": "json-server --watch db.json --port 3000",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -37,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "json-server": "^0.16.3"
   }
 }
